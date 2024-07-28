@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive picture example</title>
+</head>
+<a href="index.html"> go to home</a>
+<p></p>
+WELCOME TO MY WEB PAGE
+<body>
+    <h2 >
+        About Me
+    </h2>
+    <p>This is my web page where i will be giving details about myself,
+         below is and audio and video you need to listen to and watch</p>
+         <picture>
+            <!-- source for mobile devices-->
+             <source srcset="IMG_8522" media="(max-width: 600px)">
+             <!--source for tablets -->
+             <source srcset="IMG_8522" media="(max-width: 900px)">
+             <!--source for laptop and larger screen-->
+             <source srcset="IMG_8522" media="(max-width: 900px)">
+             <!--fallback image -->
+         <img src="img/id.JPG" alt="my image" width="200px">
+         </picture>
+         <p>Play audio </p>
+        <p>
+ <audio controls>
+<source src="audio/id.opus"type="audio/mpeg" 
+            </audio>
+                <p>This video bellow will help you to get to know me bet</p>
+<video src="IMG_8522.MP4" width="320px" height="240" style="background-color: rgb(34, 24, 24);" controls>
+    
+</video>         
+</p>       
+</body>
+</html>
